@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>{{_('MOBI Reader')}} | {{title}}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" sizes="140x140" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/libs/mobi_html5.css') }}">
+    <script src="{{ url_for('static', filename='js/libs/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/libs/mobi.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/reading/mobi_reader.js') }}"></script>
+  </head>
+  <body>
+	  <div id="mobiContainer" file="{{ url_for('web.serve_book', book_id=mobifile, book_format='mobi') }}">
+      <div id="content"></div>
+    </div>
+  </body>
+</html>
