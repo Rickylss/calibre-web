@@ -55,7 +55,7 @@ a,
 .danger,
 .book-remove,
 .editable-empty,
-.editable-empty:hover { color: #45b29d; }
+.editable-empty:hover { color: #1098ad; }
 .book-remove:hover { color: #23527c; }
 .user-remove:hover { color: #23527c; }
 .btn-default a { color: #444; }
@@ -69,12 +69,12 @@ a,
 }
 
 .btn-default a:hover {
-  color: #45b29d;
+  color: #1098ad;
   text-decoration: None;
 }
 
 .btn-default:hover {
-  color: #45b29d;
+  color: #1098ad;
 }
 
 .editable-click,
@@ -99,7 +99,7 @@ table .bg-dark-danger a { color: #fff; }
 
 .navigation .create-shelf a {
   color: #fff;
-  background: #45b29d;
+  background: #1098ad;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -218,7 +218,7 @@ table .bg-dark-danger a { color: #fff; }
 .navbar-brand {
   font-family: 'Grand Hotel', cursive;
   font-size: 35px;
-  color: #45b29d !important;
+  color: #1098ad !important;
 }
 
 .more-stuff {
@@ -344,9 +344,9 @@ input.pill {
 }
 
 input.pill + label {
-  border: 2px solid #45b29d;
+  border: 2px solid #1098ad;
   border-radius: 15px;
-  color: #45b29d;
+  color: #1098ad;
   cursor: pointer;
   display: inline-block;
   padding: 3px 15px;
@@ -356,7 +356,7 @@ input.pill + label {
 }
 
 input.pill:checked + label {
-  background-color: #45b29d;
+  background-color: #1098ad;
   border-color: #fff;
   color: #fff;
 }

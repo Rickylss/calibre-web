@@ -44,7 +44,7 @@ body {
 
 #sidebar a.active,
 #sidebar a.active img + span {
-  background-color: #45b29d;
+  background-color: #1098ad;
 }
 
 #sidebar li img {
@@ -109,7 +109,7 @@ body {
 
 #progress .bar-read {
   color: #fff;
-  background-color: #45b29d;
+  background-color: #1098ad;
 }
 
 #progress .text {
